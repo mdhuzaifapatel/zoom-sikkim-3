@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Responsive travel website 3</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav_logo">
+            <img src="assets/img/logo.svg" alt="logo image">
+            <span>GoTravel</span>
+         </a>
+
+         <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+               <li><a href="#home" class="nav_link active-link">Home</a></li>
+               <li><a href="#destination" class="nav_link">Destination</a></li>
+               <li><a href="#testimonial" class="nav_link">Testimonials</a></li>
+               <li><a href="#gallery" class="nav_link">Gallery</a></li>
+               <li><a href="#join" class="nav_link">Contact</a></li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav_close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <div class="nav_buttons">
+            <!-- toggle button -->
+            <div class="nav_toggle" id="nav-toggle">
+               <i class="ri-apps-2-fill"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <img src="assets/img/home-bg.png" alt="Home image" class="home_bg">
+         <div class="home_blur"></div>
+         <div class="home_container container grid">
+            <div class="home_data">
+               <h1 class="home_title">Travel <br> Around <br> The World</h1>
+               <p class="home_description">
+                  Explore the best beautiful tourist spots in
+                  the countries and see the world on all your
+                  amazing adventures.
+               </p>
+               <a href="#detination" class="button button_opa-30">
+                  Explore The World
+                  <i class="ri-arrow-right-long-line"></i>
+               </a>
+            </div>
+            <div class="home_swiper swiper">
+               <!-- Swiper js -->
+               <div class="swiper-wrapper">
+                  <article class="home_article swiper-slide">
+                     <img src="assets/img/home-img-1.png" alt="Home image 1" class="home_img">
+                  </article>
+                  <article class="home_article swiper-slide">
+                     <img src="assets/img/home-img-2.png" alt="Home image 2" class="home_img">
+                  </article>
+                  <article class="home_article swiper-slide">
+                     <img src="assets/img/home-img-3.png" alt="Home image 3" class="home_img">
+                  </article>
+                  <article class="home_article swiper-slide">
+                     <img src="assets/img/home-img-4.png" alt="Home image 4" class="home_img">
+                  </article>
+               </div>
+               <!-- Swiper navigation buttons -->
+               <div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i></div>
+               <div class="swiper-button-next"><i class="ri-arrow-right-long-line"></i></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== DESTINATION ====================-->
+      <section class="destination section" id="destination">
+         <h2 class="section_title">Find Your Best <br> Destination</h2>
+         <div class="destination_container container grid">
+            <article class="destination_card">
+               <img src="assets/img/destination-img-1.png" alt="Destination image 1" class="destination_img">
+               <div class="destination_data">
+                  <h3 class="destination_subtitle">Bali</h3>
+                  <h2 class="destination_title">ISLAND</h2>
+                  <p class="destination_country">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Indonesia</span>
+                  </p>
+               </div>
+            </article>
+            <article class="destination_card">
+               <img src="assets/img/destination-img-2.png" alt="Destination image 1" class="destination_img">
+               <div class="destination_data">
+                  <h3 class="destination_subtitle">Banana</h3>
+                  <h2 class="destination_title">BEACH</h2>
+                  <p class="destination_country">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Tailandia</span>
+                  </p>
+               </div>
+            </article>
+            <article class="destination_card">
+               <img src="assets/img/destination-img-3.png" alt="Destination image 1" class="destination_img">
+               <div class="destination_data">
+                  <h3 class="destination_subtitle">Santorini</h3>
+                  <h2 class="destination_title">ISLAND</h2>
+                  <p class="destination_country">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Grecia</span>
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section" id="testimonial">
+         <h2 class="section_title">What Are <br> They Saying?</h2>
+         <div class="testimonial_container container grid">
+            <img src="assets/img/testimonial-img.png" alt="Testimonial image" class="testimonial_img">
+
+            <div class="testimonial_swiper swiper">
+               <!-- Swiper js -->
+                <div class="swiper-wrapper">
+                  <div class="testimonial_card swiper-slide">
+                     <h2 class="testimonial_title">Ama Dablam</h2>
+                     <p class="testimonial_description">
+                        I was delighted to visit the country because the 
+                        scenery is beautiful. The residents also welcomed 
+                        me happily and with smiles.
+                     </p>
+                     <div class="testimonial_profile">
+                        <img src="assets/img/testimonial-profile-1.png" alt="Testimonial profile image">
+                        <div class="testimonial_info">
+                           <h3>Will</h3>
+                           <p>Photographer</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial_card swiper-slide">
+                     <h2 class="testimonial_title">Mount Fuji</h2>
+                     <p class="testimonial_description">
+                        I was delighted to visit the country because the 
+                        scenery is beautiful. The residents also welcomed 
+                        me happily and with smiles.
+                     </p>
+                     <div class="testimonial_profile">
+                        <img src="assets/img/testimonial-profile-2.png" alt="Testimonial profile image">
+                        <div class="testimonial_info">
+                           <h3>Rose</h3>
+                           <p>Influencer</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial_card swiper-slide">
+                     <h2 class="testimonial_title">Nanga Parbat</h2>
+                     <p class="testimonial_description">
+                        I was delighted to visit the country because the 
+                        scenery is beautiful. The residents also welcomed 
+                        me happily and with smiles.
+                     </p>
+                     <div class="testimonial_profile">
+                        <img src="assets/img/testimonial-profile-3.png" alt="Testimonial profile image">
+                        <div class="testimonial_info">
+                           <h3>Gian</h3>
+                           <p>Blogger</p>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+                <!-- Swiper navigation buttons -->
+               <div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i></div>
+               <div class="swiper-button-next"><i class="ri-arrow-right-long-line"></i></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== GALLERY ====================-->
+      <section class="gallery section" id="gallery">
+         <h2 class="section_title">Gallery</h2>
+         <div class="gallery_container container grid">
+            <arcticle class="gallery_card">
+               <img src="assets/img/gallery-img-1.png" alt="Gallery image 1" class="gallery_img">
+               <div class="gallery_shadow"></div>
+               <div class="gallery_data">
+                  <h3 class="gallery_subtitle">Nusa</h3>
+                  <h2 class="gallery_title">Indonesia</h2>
+               </div>
+            </arcticle>
+            <arcticle class="gallery_card">
+               <img src="assets/img/gallery-img-2.png" alt="Gallery image 2" class="gallery_img">
+               <div class="gallery_shadow"></div>
+               <div class="gallery_data">
+                  <h3 class="gallery_subtitle">Cook</h3>
+                  <h2 class="gallery_title">Nueva Zelanda</h2>
+               </div>
+            </arcticle>
+            <arcticle class="gallery_card">
+               <img src="assets/img/gallery-img-3.png" alt="Gallery image 3" class="gallery_img">
+               <div class="gallery_shadow"></div>
+               <div class="gallery_data">
+                  <h3 class="gallery_subtitle">Bora Bora</h3>
+                  <h2 class="gallery_title">Polinesia</h2>
+               </div>
+            </arcticle>
+            <arcticle class="gallery_card">
+               <img src="assets/img/gallery-img-4.png" alt="Gallery image 4" class="gallery_img">
+               <div class="gallery_shadow"></div>
+               <div class="gallery_data">
+                  <h3 class="gallery_subtitle">Santorini</h3>
+                  <h2 class="gallery_title">Grecia</h2>
+               </div>
+            </arcticle>
+         </div>
+      </section>
+
+      <!--==================== JOIN ====================-->
+      <section class="join section" id="join">
+         <div class="join_container container grid">
+            <div class="join_data">
+               <h2 class="section_title">Your Journey <br> Starts Here</h2>
+               <p class="join_description">
+                  Get up to date with the latest travel 
+                  and information from us.
+               </p>
+               <form action="" class="join_form">
+                  <input type="email" placeholder="Enter your email" class="join_input">
+                  <button type="submit" class="join_button button">
+                     Join our newsletter
+                     <i class="ri-arrow-right-long-line"></i>
+                  </button>
+               </form>
+            </div>
+            <img src="assets/img/join-img.png" alt="Join image" class="join_img">
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer_container container grid">
+         <a href="#" class="footer_logo">
+            <img src="assets/img/logo.svg" alt="Logo image" class="footer_logo_img">
+            <span>GoTravel</span>
+         </a>
+         <div class="footer_content grid">
+            <div>
+               <h3 class="footer_title">About</h3>
+               <ul class="footer_links">
+                  <li><a href="#" class="footer_link">About Us</a></li>
+                  <li><a href="#" class="footer_link">Features</a></li>
+                  <li><a href="#" class="footer_link">News & Blogs</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3 class="footer_title">Contact</h3>
+               <ul class="footer_links">
+                  <li><a href="#" class="footer_link">Call Center</a></li>
+                  <li><a href="#" class="footer_link">Support</a></li>
+                  <li><a href="#" class="footer_link">Contact Us</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3 class="footer_title">Support</h3>
+               <ul class="footer_links">
+                  <li><a href="#" class="footer_link">Privacy Policy</a></li>
+                  <li><a href="#" class="footer_link">Terms & Services</a></li>
+                  <li><a href="#" class="footer_link">Payments</a></li>
+               </ul>
+            </div>
+            <div >
+               <h3 class="footer_title">Social</h3>
+               <div class="footer_social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer_social-link" aria-label="facebook"><i class="ri-facebook-circle-fill"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank" class="footer_social-link" aria-label="instagram"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://twitter.com/" target="_blank" class="footer_social-link" aria-label="twitter"><i class="ri-twitter-x-fill"></i></a>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+      <span class="footer_copy">&#169; All Rights Reserved By JhonySouza</span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+      <a href="#" id="scroll-up" class="scrollup" aria-label="scroll up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
